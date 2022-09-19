@@ -1,0 +1,21 @@
+name: nyu-torch-gpu
+channels:
+  - conda-forge
+  - pytorch-nightly
+  - dglteam
+dependencies:
+  - mkl < 2022
+  - python=3.8
+  - pip
+  - matplotlib
+  - jupyter
+  - jupyterlab
+  - pytorch
+  - torchvision
+  - torchtext
+  - opencv
+  - librosa
+  - nb_conda_kernels
+  - dgl
+  - pip:
+    - torchviz
